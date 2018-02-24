@@ -8,7 +8,9 @@ def csvLower(__readFromCSV, __writeToCSV = ""):
 
        RETURNS __writeToCSV filename"""
 
-       
+
+    #Formats default __writeToCSV filename
+    #i.e. "infile.csv" --> "infile_csvLower.csv"
     if __writeToCSV == "":
         __writeToCSV = __readFromCSV[:-4] + "_csvLower" + __readFromCSV[-4:]
 
