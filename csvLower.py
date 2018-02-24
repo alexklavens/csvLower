@@ -1,4 +1,8 @@
-##lowercase all fields in csv file
+# Alex Klavens
+# 24 February 2018
+#
+# Function csvLower returns rewrites a csv file to current directory with
+# all fields lowercased
 
 import csv
 def csvLower(__readFromCSV, __writeToCSV = ""):
