@@ -32,3 +32,7 @@ def csvLower(__readFromCSV, __writeToCSV = ""):
                 csvWrite.writerow(newRow)
 
     return __writeToCSV
+
+
+if __name__ == '__csvLower__':
+    csvLower()
